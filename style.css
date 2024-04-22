@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+}
+
+.container {
+  width: 35%;
+  
+  display: flex;
+  
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  border-radius: 30px;
+  width: 60px;
+}
+
+.navbar {
+  background-color: #4a4a4a;
+  color: #fff;
+  padding: 20px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerObj{
+  display: flex;
+flex-direction: row;
+width: auto;
+height: 500px;
+}
+
+.imagenCasa{
+  width: 800px;
+  margin:0px 0px 0px 15px;
+  border: 2px solid #333;
+}
+
+
+
+.imgCont{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  
+}
+
+.parrafo{
+  
+  width: 600px;
+  height: 400px;
+  text-align: left;
+  margin: 0px 0px 0px 50px;
+  font-size: 1.2rem;
+  color: #666;
+}
+.textCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.main-title {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.ver-masfacu{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #666;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  margin: 0 0 0 640px;
+}
+.ver-mas {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #666;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.ver-mas:hover {
+  background-color: #555;
+}
+
+.property-section {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+.property-section .image-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.property-section .image-container img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+}
+
+.property-section .text-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.property-section .text-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.property-section .text-container p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo-container {
+  margin-top: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
